@@ -23,7 +23,7 @@ class Math{
          }
     }
 
-    max(){
+    max(){isArray
         if(Array.isArray(this.params)){
             let max=this.params[0]
             for(let i=1;i<this.params.length;i++){
